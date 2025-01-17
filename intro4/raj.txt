@@ -1,0 +1,7 @@
+Postman VS Code extension
+The Postman VS Code extension enables you to d
+evelop and test your APIs in Postman directly from Visual St
+udio Code. This streamlines your development workflow becaus
+e you can quickly test your APIs in the same application you're using to develop.
+ You can also use the extension to organize your API request
+ s in Postman Collections, and share them with your team using workspaces.
