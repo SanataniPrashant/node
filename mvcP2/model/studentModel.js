@@ -1,7 +1,9 @@
-const mongoose =require("mongoose");
+const mongoose = require("mongoose");
 const contactsSchema =  new mongoose.Schema({
     name: String,
     email: String,
-    phone: String,
-    message: String
+    city: String,
+    phone: String
 });
+
+module.exports = mongoose.model("vipin" , contactsSchema);

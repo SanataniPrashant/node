@@ -14,4 +14,6 @@ route.get("/courses",studentController.courses);
 
 route.get("/contact",studentController.contact);
 
+route.post("/save" , studentController.studentsave )
+
 module.exports = route;

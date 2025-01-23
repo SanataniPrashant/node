@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #ram{
+            height: 100px;
+            border: 3px solid black;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        #ram a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body bgcolor="red">
+   <div id="ram">
+    <a href="/student/index">Home</a>
+    <a href="/student/insert">insert</a>
+    <a href="/student/display">display</a>
+   </div>
+
+
+   
+   <h1>this is insert page</h1>
+
+   
+   <form  method="post"  action="/student/saveData">
+    Enter name: <input type="text" name="name">
+    Enter email: <input type="text" name="email">
+    Enter city: <input type="text" name="city">
+    Enter phone: <input type="text" name="phone">
+    <button>save</button>
+   </form>
+
+
+
+    
+    
+</body>
+</html>
